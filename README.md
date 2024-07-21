@@ -19,16 +19,6 @@ Front Camera | 5 MP, f/2.2, (wide)
 ## Device Picture
 ![Redmi 12C](https://mifirm.net/assets/img/model/xiaomi-redmi-12c.jpg "Redmi 12C")
 
-## Copyright
-
-```
-#
-# Copyright (C) 2022 The LineageOS Project
-# Copyright (C) 2021-2022 Miku UI
-#
-# SPDX-License-Identifier: Apache-2.0
-#
-
 ```
 #
 # Copyright (C) 2023 The LineageOS Project
