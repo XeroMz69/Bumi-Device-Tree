@@ -4,20 +4,20 @@ This repository contains device configuration for Redmi 12C(earth)
 
 Basic   | Spec Sheet
 -------:|:----------
-CPU     | Quad-core 1.84 GHz Qualcomm Kryo 260 LP
-CPU     | Quad-core 2.20 GHz Qualcomm Kryo 260 HP
-Chipset | Qualcomm Snapdragon 660, SDM660
-GPU     | Adreno 512
+CPU     | Octa-core (2x2.0 GHz Cortex-A75 & 6x1.8 GHz Cortex-A55)
+Chipset | MediaTek MT6769Z Helio G85, mt6768
+GPU     | Mali-G52 MC2
 ROM     | 32/64/128GB
 RAM     | 3/4/6GB
-Android | 8.1.0
-Battery | 3010 mAh
-Display | 1080x2160 pixels, 5.99
-Rear Camera  | 12MP+20MP, AI Dual Camera
-Front Camera | 20 MP
+Android | 12
+Battery | 5000 mAh
+Display | 720 x 1650 pixels, 6.71
+Rear Camera  | 50 MP, f/1.8, (wide), 1/2.76", PDAF
+Rear Camera  | 0.08 MP (auxiliary lens)
+Front Camera | 5 MP, f/2.2, (wide)
 
 ## Device Picture
-![Xiaomi MI 6X](https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/a4842f9afc615164af83c2088a412fc0.jpg "Xiaomi MI 6X")
+![Xiaomi MI 6X]([https://mifirm.net/assets/img/model/xiaomi-redmi-12c.jpg] "Redmi 12C")
 
 ## Copyright
 
