@@ -17,7 +17,7 @@ Rear Camera  | 0.08 MP (auxiliary lens)
 Front Camera | 5 MP, f/2.2, (wide)
 
 ## Device Picture
-![Xiaomi MI 6X]([https://mifirm.net/assets/img/model/xiaomi-redmi-12c.jpg] "Redmi 12C")
+![Redmi 12C]([https://mifirm.net/assets/img/model/xiaomi-redmi-12c.jpg] "Redmi 12C")
 
 ## Copyright
 
