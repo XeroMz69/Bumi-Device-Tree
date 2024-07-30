@@ -9,7 +9,7 @@ Chipset | MediaTek MT6769Z Helio G85, mt6768
 GPU     | Mali-G52 MC2
 ROM     | 32/64/128GB
 RAM     | 3/4/6GB
-Android | 12
+Android | 12 (MIUI 13)
 Battery | 5000 mAh
 Display | 720 x 1650 pixels, 6.71
 Rear Camera  | 50 MP, f/1.8, (wide), 1/2.76", PDAF
