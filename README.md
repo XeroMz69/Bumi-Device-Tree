@@ -5,7 +5,7 @@ This repository contains device configuration for Redmi 12C(earth)
 Basic   | Spec Sheet
 -------:|:----------
 CPU     | Octa-core (2x2.0 GHz Cortex-A75 & 6x1.8 GHz Cortex-A55)
-Chipset | MediaTek MT6769Z Helio G85, mt6768
+Chipset | MediaTek Helio G85, MT6769Z
 GPU     | Mali-G52 MC2
 ROM     | 32/64/128GB
 RAM     | 3/4/6GB
