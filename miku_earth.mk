@@ -4,6 +4,9 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+# Maintener
+MIKU_MASTER := Xero
+
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
@@ -26,15 +29,3 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="earth-user 14 UP1A.230105.007 V816.0.2.0.UCVMIXM release-keys"
 
 BUILD_FINGERPRINT := Redmi/earth_global/earth:14/UP1A.231005.007/V816.0.2.0.UCVMIXM:user/release-keys
-
-MIKU_MAINTAINER := Xero
-MIKU_MAINTAINER_LINK := https://github.com/XeroMz69
-MIKU_BUILD_TYPE := UNOFFICIAL
-MIKU_GAPPS := true
-TARGET_ENABLE_BLUR := false
-TARGET_BOOT_ANIMATION_RES := 720
-TARGET_HAS_UDFPS :=  false
-
-BUILD_GOOGLE_CONTACTS := true
-BUILD_GOOGLE_DIALER := true
-BUILD_GOOGLE_MESSAGE := true
