@@ -29,3 +29,11 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="earth-user 14 UP1A.230105.007 V816.0.2.0.UCVMIXM release-keys"
 
 BUILD_FINGERPRINT := Redmi/earth_global/earth:14/UP1A.231005.007/V816.0.2.0.UCVMIXM:user/release-keys
+
+# GAPPS
+
+MIKU_GAPPS := true
+
+# KernelSU 
+
+TARGET_WITH_KERNEL_SU := true
