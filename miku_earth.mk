@@ -33,7 +33,3 @@ BUILD_FINGERPRINT := Redmi/earth_global/earth:14/UP1A.231005.007/V816.0.2.0.UCVM
 # GAPPS
 
 MIKU_GAPPS := true
-
-# KernelSU 
-
-TARGET_WITH_KERNEL_SU := true
