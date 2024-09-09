@@ -5,4 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_earth.mk
+    $(LOCAL_DIR)/aosp_earth.mk
+
+COMMON_LUNCH_CHOICES := \
+    aosp_earth-user \
+    aosp_earth-userdebug \
+    aosp_earth-eng
