@@ -8,6 +8,6 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/cipher_earth.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_earth-user \
-    lineage_earth-userdebug \
-    lineage_earth-eng
+    cipher_earth-user \
+    cipher_earth-ap1a-userdebug \
+    cipher_earth-eng
