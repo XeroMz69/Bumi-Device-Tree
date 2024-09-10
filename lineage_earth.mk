@@ -33,9 +33,6 @@ BUILD_FINGERPRINT := Redmi/earth_global/earth:14/UP1A.231005.007/V816.0.2.0.UCVM
 # Charging Animation
 TARGET_INCLUDE_PIXEL_CHARGER := true
 
-# MiuiCamera
-$(call inherit-product-if-exists, vendor/MiuiCamera/config.mk)
-
 # GAPPS
 WITH_GMS := false
 TARGET_CORE_GMS := false
