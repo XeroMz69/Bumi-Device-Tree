@@ -13,7 +13,6 @@ $(call inherit-product, device/xiaomi/earth/device.mk)
 
 # Inherit some common DerpFest stuff.
 $(call inherit-product, vendor/derp/config/common_full_phone.mk)
-DERP_BUILDTYPE := Official
 
 PRODUCT_NAME := derp_earth
 PRODUCT_DEVICE := earth
