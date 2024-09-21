@@ -11,10 +11,19 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from device makefile.
 $(call inherit-product, device/xiaomi/earth/device.mk)
 
-# Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common Cherish stuff.
+$(call inherit-product, vendor/cherish/config/common_full_phone.mk)
+BUILD_WITH_GAPPS := false
+TARGET_BOOT_ANIMATION_RES := 720
 
-PRODUCT_NAME := lineage_earth
+WITH_GMS := false
+# Cherish props
+CHERISH_MAINTAINER := Xero
+CHERISH_CHIPSET := MT6768
+CHERISH_BATTERY := 5000mAh
+CHERISH_DISPLAY := 720x1650
+
+PRODUCT_NAME := cherish_earth
 PRODUCT_DEVICE := earth
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := Redmi
