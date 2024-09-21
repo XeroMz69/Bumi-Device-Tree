@@ -221,3 +221,163 @@ ro.vendor.wifi.sap.concurrent.iface=ap1
 ro.vendor.wifi.sap.interface=ap0
 ro.vendor.wlan.chrdev=wmt_chrdev_wifi
 ro.vendor.wlan.gen=gen4m
+
+# Surface Flinger
+debug.sf.hw=1
+ro.surface_flinger.enable_frame_rate_override=false
+
+# Logging
+ro.kernel.android.checkjni=0
+ro.config.checkjni=0
+profiler.hung.dumpdobugreport=false
+debug.mdpcomp.logs=0
+profiler.debugmonitor=false
+logcat.live=disable
+ro.logd.kernel=false
+persist.logd.size.radio=OFF
+persist.logd.size.system=OFF
+logd.logpersistd.enable=false
+logd.statistics=0
+ro.statsd.enable=0
+vidc.debug.level=0
+debug.atrace.tags.enableflags=0
+ro.logdumpd.enabled=0
+
+# Rendering
+debug.hwui.renderer=skiagl
+debug.renderengine.backend=skiaglthreaded
+debug.hwui.skia_atrace_enabled=true
+debug.composition.type=gpu
+ro.vendor.fps.switch.default=true
+persist.sys.background_blur_version=2
+persist.sys.screen_anti_burn_enabled=true
+ro.miui.has_real_blur=1
+ro.miui.ui.blur=1
+hwui.use_gpu=true
+
+# Trim
+persist.sys.fw.bg_apps_limit=65
+persist.sys.fw.bservice_enable=true
+persist.sys.fw.use_trim_settings=true
+persist.sys.fw.trim_cache_percent=100
+
+# IMS
+persist.dbg.ims_volte_enable=1
+ro.vendor.net.enable_dual_wifi=1
+persist.rcs.supported=1
+persist.sys.cust.lte_config=true
+persist.radio.VT_ENABLE=1
+persist.dbg.wfc_avail_ovr=1
+ro.ril.power_collapse=1
+
+# Thermal
+ro.thermal.iec.enable=true
+
+#Fix Scrolling Lag
+debug.sf.disable_client_composition_cache=1
+debug.renderengine.backend=skiaglthreaded
+dalvik.vm.systemuicompilerfilter=speed-profile
+dalvik.vm.systemservercompilerfilter=speed-profile
+
+# Audio enhancer
+persist.audio.fluence.mode=endfire
+persist.audio.vr.enable=true
+persist.audio.handset.mic=digital
+af.resampler.quality=255
+mpq.audio.decode=true
+# Call delay
+ro.telephony.call_ring.delay=800
+# Video acceleration enabled
+video.accelerate.hw=1
+# Wifi scaning rate [every 60 --> 1 scan / min]
+wifi.supplicant_scan_interval=180
+# Deeper sleep/better battery life [for extrimmly power save] [kills all background apps]
+ro.ril.disable.power.collapse=1
+pm.sleep_mode=1
+# Improves audio and video recording quality
+ro.media.enc.hprof.vid.fps=65
+ro.media.enc.hprof.vid.bps=8000000
+ro.media.capture.maxres=8m
+ro.camcorder.videoModes=true
+# Picture Quality Enhancer
+ro.media.enc.jpeg.quality=100
+ro.media.dec.jpeg.memcap=8000000
+# Disable Camera Sound
+ro.camera.sound.forced=0
+# Better Scrolling
+ro.min_pointer_dur=8
+ro.max.fling_velocity=12000
+windowsmgr.max_events_per_sec=120
+# Disable strict mode checking
+persist.android.strictmode=0
+# Remain launcher in memory
+ro.HOME_APP_ADJ=1
+# Disable usb debugging popup in notification
+persist.adb.notify=0
+# Proximeter delays
+ro.lge.proximity.delay=25
+mot.proximity.delay=10
+# media enhancer [codecs]
+ro.media.dec.aud.flac.enabled=1
+ro.media.dec.aud.wma.enabled=1
+ro.media.dec.vid.avi.enabled=1
+ro.media.dec.vid.wmv.enabled=1
+ro.media.dec.aud.wma.enabled=1
+ro.media.dec.aud.mp3.enabled=1
+ro.media.dec.vid.mp4.enabled=1
+ro.media.dec.aud.flac.enabled=1
+ro.media.dec.vid.H.264.enabled=1
+ro.media.enc.aud.flac.enabled=1
+ro.media.enc.vid.H.264.enabled=1
+ro.media.enc.aud.wma.enabled=1
+ro.media.enc.vid.wmv.enabled=1
+ro.media.enc.aud.mp3.enabled=1
+ro.media.enc.vid.mp4.enabled=1
+# Improved performance
+debug.performance.tuning=1
+# Better Network Signals
+persist.cust.tel.eons=1
+ro.config.hw_fast_dormancy=1
+# Better call voice quality
+ro.ril.enable.amr.wideband=1
+# Faster streaming videos
+media.stagefright.enable-player=true
+media.stagefright.enable-meta=true
+media.stagefright.enable-scan=true
+media.stagefright.enable-http=true
+media.stagefright.enable-rtsp=true
+media.stagefright.enable-record=false
+# Disables built in error reporting
+profiler.force_disable_err_rpt=1
+profiler.force_disable_ulog=1
+# Disables kernel error checking
+ro.kernel.android.checkjni=0
+ro.kernel.checkjni=0
+# Disable Logcat
+logcat.live=disable
+# Disables sending of usage data
+ro.config.nocheckin=1
+# Boost Booting Speed & hibernate mode
+ro.config.hw_quickpoweron=true
+persist.sys.shutdown.mode=hibernate
+# Very fast reboot
+persist.sys.purgeable_assets=1
+# Disables locating
+ro.com.google.locationfeatures=0
+ro.com.google.networklocation=0
+# Net speed enhancer[tcp buffersize]
+net.tcp.buffersize.default=6144,87380,110208,6144,16384,110208
+net.tcp.buffersize.edge=6144,26280,35040,6144,16384,35040
+net.tcp.buffersize.evdo_b=6144,262144,1048576,6144,262144,1048576
+net.tcp.buffersize.gprs=6144,8760,11680,6144,8760,11680
+net.tcp.buffersize.hsdpa=6144,262144,1048576,6144,262144,1048576
+net.tcp.buffersize.hspa=6144,87380,262144,6144,16384,262144
+net.tcp.buffersize.lte=262144,524288,3145728,262144,524288,3145728
+net.tcp.buffersize.umts=6144,87380,110208,6144,16384,110208
+net.tcp.buffersize.wifi=262144,524288,1048576,262144,524288,1048576
+# For Sensor Sleep Control
+ro.ril.sensor.sleep.control=1
+# DHA tunning
+ro.config.dha_tunnable=1
+# Faster Boot-Animation FPS
+boot.fps=20
