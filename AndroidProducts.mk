@@ -5,4 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_earth.mk
+    $(LOCAL_DIR)/cherish_earth.mk
+
+COMMON_LUNCH_CHOICES := \
+    cherish_earth-user \
+    cherish_earth-userdebug \
+    cherish_earth-eng
