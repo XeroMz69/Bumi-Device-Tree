@@ -5,4 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_earth.mk
+    $(LOCAL_DIR)/mist_earth.mk
+
+COMMON_LUNCH_CHOICES := \
+    mist_earth-user \
+    mist_earth-userdebug \
+    mist_earth-eng
