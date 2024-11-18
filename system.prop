@@ -11,3 +11,8 @@ persist.dbg.wfc_avail_ovr=1
 
 # Zygote
 zygote.critical_window.minute=10
+
+# DroidX-UI
+ro.droidx.chipset=Mediatek Helio G85
+ro.droidx.display_resolution=6.71" IPS LCD 720x1650
+ro.droidx.maintainer=Xero
