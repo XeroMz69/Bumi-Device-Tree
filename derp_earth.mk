@@ -11,8 +11,13 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from device makefile.
 $(call inherit-product, device/xiaomi/earth/device.mk)
 
-# Inherit some common DerpFest stuff.
+# Inherit some common LineageOS stuff.
+TARGET_BOOT_ANIMATION_RES := 720
 $(call inherit-product, vendor/derp/config/common_full_phone.mk)
+
+DERP_BUILDTYPE := Community
+DERP_MAINTAINER := Xero
+TARGET_USES_CORE_GAPPS := true
 
 PRODUCT_NAME := derp_earth
 PRODUCT_DEVICE := earth
