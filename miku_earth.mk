@@ -34,3 +34,6 @@ BUILD_FINGERPRINT := Redmi/earth_global/earth:14/UP1A.231005.007/V816.0.2.0.UCVM
 
 # Maintainer
 MIKU_MASTER := Xero
+
+# GAPPS
+MIKU_GAPPS := true
