@@ -89,10 +89,12 @@ PRODUCT_PACKAGES += \
 # Camera
 PRODUCT_PACKAGES += \
     android.hardware.camera.device@3.6.vendor \
-    android.hardware.camera.provider@2.6.vendor \
-    libcamera2ndk_vendor
+    android.hardware.camera.provider@2.6.vendor
 
 PRODUCT_PACKAGES += \
+    android.frameworks.cameraservice.common-V1-ndk.vendor \
+    android.frameworks.cameraservice.device-V1-ndk.vendor \
+    android.frameworks.cameraservice.service-V1-ndk.vendor \
     libcamera_metadata.vendor \
     libexif.vendor \
     libpng.vendor
@@ -142,8 +144,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/keylayout/uinput-silead.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/uinput-silead.kl
 
 # FM Radio
-# PRODUCT_PACKAGES += \
-#     FMRadio
+PRODUCT_PACKAGES += \
+    FMRadio
 
 # Gatekeeper
 PRODUCT_PACKAGES += \
@@ -218,6 +220,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/configs/seccomp,$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy) \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/configs/media,$(TARGET_COPY_OUT_VENDOR)/etc)
+
+# Muzza
+    $(call inherit-product, packages/apps/Muzza/config.mk)
 
 # NFC
 PRODUCT_PACKAGES += \
