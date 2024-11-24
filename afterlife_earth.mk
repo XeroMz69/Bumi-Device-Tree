@@ -32,7 +32,7 @@ AFTERLIFE_CORE := true
 # Pixel Charging
 USE_PIXEL_CHARGING := true
 
-PRODUCT_NAME := lineage_earth
+PRODUCT_NAME := afterlife_earth
 PRODUCT_DEVICE := earth
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := Redmi
