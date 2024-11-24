@@ -11,12 +11,16 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from device makefile.
 $(call inherit-product, device/xiaomi/earth/device.mk)
 
-# Inherit some common LineageOS stuff.
+# Inherit some common AfterlifeOS stuff.
 $(call inherit-product, vendor/afterlife/config/common_full_phone.mk)
 
 AFTERLIFE_MAINTAINER := Xero
 TARGET_BOOT_ANIMATION_RES := 720
 TARGET_USES_AOSP_RECOVERY := true
+BUILD_CALENDER := false
+BUILD_GOOGLE := false
+BUILD_GALLERY := true
+BUILD_PHOTOS := false
 
 # FaceUnlock
 TARGET_FACE_UNLOCK_SUPPORTED := true
