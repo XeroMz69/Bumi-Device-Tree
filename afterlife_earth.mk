@@ -14,6 +14,20 @@ $(call inherit-product, device/xiaomi/earth/device.mk)
 # Inherit some common LineageOS stuff.
 $(call inherit-product, vendor/afterlife/config/common_full_phone.mk)
 
+AFTERLIFE_MAINTAINER := Xero
+TARGET_BOOT_ANIMATION_RES := 720
+TARGET_USES_AOSP_RECOVERY := true
+
+# FaceUnlock
+TARGET_FACE_UNLOCK_SUPPORTED := true
+
+# CoreGapps
+AFTERLIFE_GAPPS := true
+AFTERLIFE_CORE := true
+
+# Pixel Charging
+USE_PIXEL_CHARGING := true
+
 PRODUCT_NAME := lineage_earth
 PRODUCT_DEVICE := earth
 PRODUCT_MANUFACTURER := Xiaomi

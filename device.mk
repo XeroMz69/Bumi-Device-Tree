@@ -89,10 +89,12 @@ PRODUCT_PACKAGES += \
 # Camera
 PRODUCT_PACKAGES += \
     android.hardware.camera.device@3.6.vendor \
-    android.hardware.camera.provider@2.6.vendor \
-    libcamera2ndk_vendor
+    android.hardware.camera.provider@2.6.vendor
 
 PRODUCT_PACKAGES += \
+    android.frameworks.cameraservice.common-V1-ndk.vendor \
+    android.frameworks.cameraservice.device-V1-ndk.vendor \
+    android.frameworks.cameraservice.service-V1-ndk.vendor \
     libcamera_metadata.vendor \
     libexif.vendor \
     libpng.vendor
@@ -144,6 +146,10 @@ PRODUCT_COPY_FILES += \
 # FM Radio
 PRODUCT_PACKAGES += \
     FMRadio
+
+# Gallery
+PRODUCT_PACKAGES += \
+    Gallery
 
 # Gatekeeper
 PRODUCT_PACKAGES += \
@@ -242,7 +248,8 @@ PRODUCT_PACKAGES += \
     FrameworksResOverlayEarth \
     SystemUIOverlayEarth \
     TelephonyOverlayEarth \
-    WifiResOverlayEarth
+    WifiResOverlayEarth \
+    packages
 
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay-lineage
