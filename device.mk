@@ -16,6 +16,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
 # Setup dalvik vm configs
 $(call inherit-product, frameworks/native/build/phone-xhdpi-4096-dalvik-heap.mk)
 
+# Sign the ROM
+-include vendor/lineage-priv/keys/keys.mk
+
 # A/B
 PRODUCT_PACKAGES += \
     com.android.hardware.boot \
@@ -220,6 +223,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/configs/seccomp,$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy) \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/configs/media,$(TARGET_COPY_OUT_VENDOR)/etc)
+
+# Muzza
+    $(call inherit-product, packages/apps/Muzza/config.mk)
 
 # NFC
 PRODUCT_PACKAGES += \
