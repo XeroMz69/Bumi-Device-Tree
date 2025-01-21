@@ -1,6 +1,9 @@
 # Charger
 ro.charger.enable_suspend=true
 
+# Force LTE-CA
+persist.sys.radio.force_lte_ca = true
+
 # Dalvik
 dalvik.vm.dex2oat64.enabled=true
 
