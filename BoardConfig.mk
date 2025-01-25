@@ -150,6 +150,7 @@ ENABLE_VENDOR_RIL_SERVICE := true
 include device/mediatek/sepolicy_vndr/SEPolicy.mk
 SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/private
 BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
+BOARD_SEPOLICY_DIRS += device/xiaomi/earth/sepolicy
 
 # SPL
 VENDOR_SECURITY_PATCH := 2023-12-01
