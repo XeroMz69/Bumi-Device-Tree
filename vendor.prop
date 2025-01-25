@@ -122,6 +122,15 @@ ro.vendor.smvr.p2batch.vga=8
 # DRM
 ro.netflix.bsp_rev=MTK6768-19055-1
 
+# Fix Qs Laggy (By FrhnDroid)
+ro.config.avoid_gfx_accel=true
+debug.sf.enable_gl_backpressure=0
+ro.hwui.render_ahead=20
+debug.sf.disable_client_composition_cache=1
+debug.renderengine.backend=skiaglthreaded
+debug.hwui.skia_atrace_enabled=false
+ro.surface_flinger.enable_frame_rate_override=false
+
 # FM Radio
 persist.vendor.connsys.fm_chipid=mt6631
 
@@ -209,6 +218,11 @@ persist.vendor.viwifi_support=1
 persist.vendor.volte_support=1
 ro.vendor.md_auto_setup_ims=1
 ro.vendor.mtk_data_config=1
+
+# Ram Tweaks (For 3gb/4gb Ram Devices) 
+persist.sys.purgeable_assets=1
+persist.service.pcsync.enable=0
+persist.service.lgospd.enable=0
 
 # Sensors
 ro.vendor.mtk.sensor.support=yes
