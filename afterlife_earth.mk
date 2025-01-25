@@ -17,10 +17,9 @@ $(call inherit-product, vendor/afterlife/config/common_full_phone.mk)
 AFTERLIFE_MAINTAINER := Xero
 TARGET_BOOT_ANIMATION_RES := 720
 TARGET_USES_AOSP_RECOVERY := true
-BUILD_CALENDER := false
-BUILD_GOOGLE := false
-BUILD_GALLERY := true
-BUILD_PHOTOS := false
+TARGET_INCLUDE_CALENDER := true
+TARGET_INCLUDE_GALLERY := true
+TARGET_INCLUDE_PHOTOS := false
 
 # FaceUnlock
 TARGET_FACE_UNLOCK_SUPPORTED := true
