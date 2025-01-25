@@ -11,5 +11,18 @@ type silead_fpd_data_file, data_file_type, file_type;
 type vendor_fingerprint_data_file, data_file_type, file_type;
 type vendor_sysfs_fingerprint, fs_type, sysfs_type;
 
+# Graphics
+type sysfs_mali, fs_type, sysfs_type;
+
 # Touchpanel
 type sysfs_touchpanel, sysfs_type, fs_type;
+
+# Latency
+type latency_device, dev_type;
+
+# Performance
+type sysfs_mtk_cpufreq, fs_type, sysfs_type;
+type sysfs_mtk_gpufreq, fs_type, sysfs_type;
+
+# PPS
+type pps_socket, file_type;
