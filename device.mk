@@ -361,7 +361,10 @@ PRODUCT_SHIPPING_API_LEVEL := 30
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
+    hardware/google/pixel \
+    hardware/google/interfaces \
     hardware/mediatek \
+    hardware/mediatek/libmtkperf_client \
     hardware/xiaomi
 
 # Thermal
