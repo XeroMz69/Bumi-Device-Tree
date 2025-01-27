@@ -14,6 +14,6 @@
 <resources>
    <string name="maintainer_git_username">XeroMz69</string>
     <string name="maintainer_tele_username">XeroMz69</string>
-    <string name="maintainer_ig_username">AdamYDMusic</string>
-    <string name="maintainer_fb_username">Adam YD</string>
+    <string name="maintainer_ig_username"></string>
+    <string name="maintainer_fb_username"></string>
 </resources>
