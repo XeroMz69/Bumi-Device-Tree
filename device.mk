@@ -248,8 +248,7 @@ PRODUCT_PACKAGES += \
     FrameworksResOverlayEarth \
     SystemUIOverlayEarth \
     TelephonyOverlayEarth \
-    WifiResOverlayEarth \
-    packages
+    WifiResOverlayEarth
 
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay-lineage
