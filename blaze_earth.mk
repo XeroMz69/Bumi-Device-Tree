@@ -11,8 +11,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from device makefile.
 $(call inherit-product, device/xiaomi/earth/device.mk)
 
-# Inherit some common AfterlifeOS stuff.
-$(call inherit-product, vendor/afterlife/config/common_full_phone.mk)
+# Inherit some common ProjectBlaze stuff.
+$(call inherit-product, vendor/blaze/config/common_full_phone.mk)
 
 # Blaze Official Stuff
 BLAZE_BUILD_TYPE := UNOFFICIAL
