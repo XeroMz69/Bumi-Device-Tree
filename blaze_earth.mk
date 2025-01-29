@@ -14,24 +14,23 @@ $(call inherit-product, device/xiaomi/earth/device.mk)
 # Inherit some common AfterlifeOS stuff.
 $(call inherit-product, vendor/afterlife/config/common_full_phone.mk)
 
-AFTERLIFE_MAINTAINER := Xero
+# Blaze Official Stuff
+BLAZE_BUILD_TYPE := UNOFFICIAL
+BLAZE_MAINTAINER := Xero
+TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_BOOT_ANIMATION_RES := 720
 TARGET_USES_AOSP_RECOVERY := true
 TARGET_INCLUDE_CALENDER := true
 TARGET_INCLUDE_GALLERY := true
-TARGET_INCLUDE_PHOTOS := false
+WITH_GMS := true
 
 # FaceUnlock
 TARGET_FACE_UNLOCK_SUPPORTED := true
 
-# CoreGapps
-AFTERLIFE_GAPPS := true
-AFTERLIFE_CORE := true
-
 # Pixel Charging
 USE_PIXEL_CHARGING := true
 
-PRODUCT_NAME := afterlife_earth
+PRODUCT_NAME := blaze_earth
 PRODUCT_DEVICE := earth
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := Redmi

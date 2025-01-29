@@ -5,4 +5,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/afterlife_earth.mk
+    $(LOCAL_DIR)/blaze_earth.mk
