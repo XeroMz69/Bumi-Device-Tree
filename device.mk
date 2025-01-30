@@ -221,9 +221,6 @@ PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/configs/seccomp,$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy) \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/configs/media,$(TARGET_COPY_OUT_VENDOR)/etc)
 
-# Muzza
-    $(call inherit-product, packages/apps/Muzza/config.mk)
-
 # NFC
 PRODUCT_PACKAGES += \
     android.hardware.nfc@1.2-service \
