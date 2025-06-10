@@ -63,9 +63,6 @@ PRODUCT_PACKAGES += \
     MtkInCallService
 
 PRODUCT_PACKAGES += \
-    MtkInCallService
-
-PRODUCT_PACKAGES += \
     libaudiofoundation.vendor \
     libbluetooth_audio_session \
     libalsautils \
@@ -88,7 +85,13 @@ PRODUCT_PACKAGES += \
 # Camera
 PRODUCT_PACKAGES += \
     android.hardware.camera.device@3.6.vendor \
-    android.hardware.camera.provider@2.6.vendor
+    android.hardware.camera.provider@2.6.vendor \
+    libcamera2ndk_vendor
+
+PRODUCT_PACKAGES += \
+    libcamera_metadata.vendor \
+    libexif.vendor \
+    libpng.vendor
 
 # Cgroup
 PRODUCT_COPY_FILES += \
