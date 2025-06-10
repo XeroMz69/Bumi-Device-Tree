@@ -129,8 +129,7 @@ PRODUCT_PACKAGES += \
 
 # Fingerprint
 PRODUCT_PACKAGES += \
-    android.hardware.biometrics.fingerprint@2.1.vendor \
-    com.fingerprints.extension@1.0.vendor
+    android.hardware.biometrics.fingerprint@2.1.vendor
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/keylayout/uinput-chipone.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/uinput-chipone.kl \
