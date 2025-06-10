@@ -68,7 +68,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libaudiofoundation.vendor \
     libbluetooth_audio_session \
-    libunwindstack.vendor \
     libalsautils \
     libnbaio_mono \
     libtinycompress \
@@ -91,14 +90,6 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.device@3.6.vendor \
     android.hardware.camera.provider@2.6.vendor
 
-PRODUCT_PACKAGES += \
-    android.frameworks.cameraservice.common-V1-ndk.vendor \
-    android.frameworks.cameraservice.device-V1-ndk.vendor \
-    android.frameworks.cameraservice.service-V1-ndk.vendor \
-    libcamera_metadata.vendor \
-    libexif.vendor \
-    libpng.vendor
-
 # Cgroup
 PRODUCT_COPY_FILES += \
     system/core/libprocessgroup/profiles/cgroups_30.json:$(TARGET_COPY_OUT_VENDOR)/etc/cgroups.json \
@@ -113,9 +104,6 @@ PRODUCT_PACKAGES += \
     android.hardware.graphics.allocator@4.0.vendor \
     libdrm.vendor \
     libutils-v32
-
-PRODUCT_PACKAGES += \
-    libutilscallstack.vendor
 
 # DRM
 PRODUCT_PACKAGES += \
@@ -159,10 +147,6 @@ PRODUCT_PACKAGES += \
     android.hardware.gnss@1.1.vendor \
     android.hardware.gnss@2.1.vendor \
     android.hardware.gnss-V1-ndk.vendor
-
-PRODUCT_PACKAGES += \
-    libcurl.vendor \
-    libexpat.vendor
 
 # Health
 PRODUCT_PACKAGES += \
