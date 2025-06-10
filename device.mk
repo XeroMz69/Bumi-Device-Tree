@@ -366,7 +366,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     wpa_supplicant \
     hostapd \
-    android.hardware.wifi-service
+    android.hardware.wifi@1.0-service-lazy
 
 PRODUCT_PACKAGES += \
     android.hardware.tetheroffload.config@1.0.vendor \
