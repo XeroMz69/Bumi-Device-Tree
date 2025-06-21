@@ -2,8 +2,7 @@
 hal_client_domain(hal_sensors_default, hal_graphics_allocator);
 
 # Allow hal_sensors_default to find fwk_camera_service
-allow hal_sensors_default camera_service:service_manager find;
-allow hal_sensors_default camera_service:binder call;
+allow hal_sensors_default fwk_camera_service:service_manager find;
 
 # Allow hal_sensors_default to find hal_graphics_mapper_hwservice
 allow hal_sensors_default hal_graphics_mapper_hwservice:hwservice_manager find;
