@@ -1,8 +1,8 @@
 # Allow access to the HALs
 hal_client_domain(hal_sensors_default, hal_graphics_allocator);
 
-# Allow hal_sensors_default to find hal_camera_service
-allow hal_sensors_default hal_camera_service:service_manager find;
+# Allow hal_sensors_default to find cameraserver_service
+allow hal_sensors_default cameraserver_service:service_manager find;
 
 # Allow hal_sensors_default to find hal_graphics_mapper_hwservice
 allow hal_sensors_default hal_graphics_mapper_hwservice:hwservice_manager find;
