@@ -1314,3 +1314,14 @@ on property:persist.audio.headset.plug.status=on
 on property:persist.audio.headset.plug.status=off
    start headset_out_screenmode
 # C3T-T code for HQ-268776 by tanrong at 2023/1/12 end
+
+# Logger
+service boot_log /system/bin/logcat -b all -D -f /metadata/boot_log.txt
+    class main
+    user root
+    group root system
+    disabled
+    oneshot
+
+on boot
+    start boot_log
