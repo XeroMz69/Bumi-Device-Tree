@@ -13,6 +13,7 @@ $(call inherit-product, device/xiaomi/earth/device.mk)
 
 # Inherit some common LineageOS stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+TARGET_BOOT_ANIMATION_RES := 720
 
 PRODUCT_NAME := lineage_earth
 PRODUCT_DEVICE := earth
@@ -25,6 +26,10 @@ PRODUCT_SYSTEM_DEVICE := earth
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
+WITH_GMS := true
+TARGET_PREBUILT_LAWNCHAIR_LAUNCHER := true
+TARGET_DEFAULT_PIXEL_LAUNCHER := true
+
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="earth-user 14 UP1A.230105.007 V816.0.7.0.UCVMIXM release-keys" \
     BuildFingerprint=Redmi/earth_global/earth:14/UP1A.231005.007/V816.0.7.0.UCVMIXM:user/release-keys
@@ -32,3 +37,10 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     SystemName=$(PRODUCT_SYSTEM_NAME) \
     ProductModel=$(PRODUCT_SYSTEM_DEVICE) \
     DeviceProduct=$(PRODUCT_SYSTEM_NAME)
+
+RISING_MAINTAINER := Xero
+RISING_PACKAGE_TYPE := GAPPS
+
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    RisingMaintainer="Xero" \
+    RisingChipset="Mediatek Helio G85"
